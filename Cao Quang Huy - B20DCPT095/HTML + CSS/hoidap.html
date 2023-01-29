@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tư vấn - Hỏi đáp</title>
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/hoidap.css">
+    <link rel="stylesheet" href="css/guicauhoi.css">
+</head>
+
+<body>
+
+
+    <!-- status -->
+    <section id="topBar">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between py-2 text-center">
+                <div class="leftBar d-flex align-items-center justify-content-center">
+                    <p class="weatherInfo">
+                        <img src="images/top-weather.png" alt="" class="img-fluid">
+                        15 <sup>°C</sup> Hà Nội
+                    </p>
+                    <p class="time">
+                        <img src="images/clock.png" alt="clock" class="img-fluid">
+                        Thứ 6, ngày 9 tháng 11 năm 2022
+                    </p>
+                </div>
+                <div class="rightBar">
+                    <ul class="list-unstyled d-flex align-items-center justify-content-center">
+                        <li><a href="#">
+                                <img src="images/Facebook.png" alt="facebook" class="img-fluid">
+                            </a></li>
+                        <li><a href="#">
+                                <img src="images/Twitter.png" alt="Twitter" class="img-fluid">
+                            </a></li>
+                        <li><a href="#">
+                                <img src="images/Instagram.png" alt="Instagram" class="img-fluid">
+                            </a></li>
+                        <li><a href="#">
+                                <img src="images/Youtube.png" alt="Youtube" class="img-fluid">
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- // status end  -->
+
+    <!-- header logo -->
+    <section id="logoCtrl">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bigLogo d-flex align-items-end pb-4 pb-md-0">
+                        <img src="images/logo.png" alt="logo" class="img-fluid">
+                        <h3 class="logoText">Health <span>Express</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="logoRightCruved d-flex align-items-center">
+                        <img src="images/monogram.png" alt="monogram" class="img-fluid">
+                        <div class="logoRightInfo">
+                            <p class="infoText">Xin chào</p>
+                            <h5 class="logoInfoTitle">Nguyễn Nam Khánh </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //header logo -->
+
+
+    <!-- NAVBAR -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg px-0">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-lg-none" href="#">
+                        <img src="images/mobileLogo.png" alt="logo" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <img src="images/menu.png" alt="menu" class="img-fluid menu">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Tin tức</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="hoidap.html">Tư vấn</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Khỏe đẹp</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Trẻ em</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Các bệnh</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Covid-19</a>
+                            </li>
+
+                        </ul>
+
+                        <!-- SEARCH BOX -->
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm.." aria-label="Search">
+                            <button class="btn inputIcon">
+                                <img src="images/search.png" alt="search" class="img-fluid ">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /NAVBAR-->
+
+
+    <!-- MAIN -->
+    <main id="mainNews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 mainNewsLeft ">
+                    <!-- DROPDOWN -->
+                    <div class="newsBody">
+                        <h2 class="newsTitle colored">
+                            Tư vấn - Hỏi đáp
+                        </h2>
+
+                        <div class="searchBoxController">
+                            <h2 class="newsTitle colored">
+                                Tìm kiếm trong mục Tư vấn - Hỏi đáp
+                            </h2>
+
+                            <div class="singleInput">
+                                <input type="search" class="form-control" placeholder="covid 19 ">
+                                <img src="images/search.png" alt="search" class="img-fluid inputIcon">
+                            </div>
+                            <div class="tripleInput">
+                                <div class="row row-cols-md-3 g-md-5 row-cols-1">
+
+                                    <!-- SELECT -->
+                                    <div class="col">
+                                        <div class="singleInput">
+                                            <p>Thời gian</p>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Trong ngày </option>
+                                                <option value="1">Trong tuần </option>
+                                                <option value="2">Trong tháng</option>
+                                                <option value="3">Trong năm</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="singleInput">
+                                            <p>Chuyên mục </p>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Covid-19 </option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="singleInput">
+                                            <p>Sắp xếp theo </p>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Liên quan </option>
+                                                <option value="1">Mới nhất</option>
+                                                <option value="2">Cũ nhất</option>
+                                                <option value="3">Lượt xem</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sortBtn">
+                            <button type="button" class="btn btn-lg"> Tất cả </button>
+                            <button type="button" class="btn btn-lg active"> Đã trả lời </button>
+                            <button type="button" class="btn btn-lg"> Nổi bật</button>
+                        </div>
+                        <div class="totalCommentsView">
+
+                            <div id="collapseOne" class="accordion-collapse accBG collapse show"
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <!-- SINGLE COMMENT -->
+                                    <div class="singleComment">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 class="commentTitle">Tuấn Anh</h5>
+                                                <h6 class="doctorTitle"> 40 tuổi, Cái Bè, Tiền Giang</h6>
+                                                <p class="commentDetails">
+                                                    Tại sao nhóm người sử dụng corticoid kéo dài hoặc liều cao lại không
+                                                    đủ sinh kháng thể ngừa Covid-19 khi tiêm vaccine Covid-19? Những
+                                                    bệnh nào hay dùng corticoid để trị bệnh? Cảm ơn bác sĩ!
+                                                </p>
+
+
+                                                <div class="card-footer"
+                                                    style="background-color: white; padding-left: 0rem;">
+                                                    <div class="row d-flex align-items-center justify-content-between">
+                                                        <div class="col-lg-4">
+                                                            <p class="commentTime">6:09 (GTM +7) | 11/11/2022</p>
+                                                        </div>
+                                                        <div class="col-lg-3" style="float: right; padding: none">
+                                                            <div
+                                                                class="postShareCtrl d-flex align-items-center justify-content-between">
+                                                                <a href="#">
+                                                                    <img src="images/share.png" alt="share"
+                                                                        class="img-fluid">
+                                                                    Chia sẻ
+                                                                </a>
+                                                                <a href="#">
+                                                                    <img src="images/pocket.png" alt="share"
+                                                                        class="img-fluid">
+                                                                    Đọc sau
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="singleComment commentInsideMode">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 class="commentTitle">BS.CKII Tạ Phương Dung</h5>
+                                                <h6 class="doctorTitle">Phó giám đốc TT Tiết niệu - Thận học BVĐK Tâm
+                                                    Anh TP.HCM</h6>
+                                                <p class="commentDetails ">
+                                                    Khi bệnh nhân dùng corticoid nhiều loại khác nhau ví dụ như
+                                                    prednison, prednisolon,... liều tương đương với liều trên 20 mg của
+                                                    prednison là liều ức chế miễn dịch. Khi thuốc ức chế miễn dịch được
+                                                    sử dụng thì bệnh nhân sẽ kém đáp ứng hoặc thậm chí là không đáp ứng
+                                                    với cả vaccine hoặc tất cả các loại thuốc khác. Phải hết sức lưu ý,
+                                                    liều trên 20 mg là liều ức chế miễn dịch, liều dưới 20 mg có thể là
+                                                    liều kháng viêm thôi hoặc là giảm liều của ức chế miễn dịch. Những
+                                                    người sử dụng liều ức chế miễn dịch khi tiêm vaccine chưa chắc đã
+                                                    tạo ra được kháng thể hoặc tạo ra kháng thể nhưng không đủ để phòng
+                                                    ngừa được bệnh, không tạo được hiệu ứng kháng thể mong muốn.
+                                                </p>
+                                                <p class="commentDetails ">
+                                                    Cảm ơn câu hỏi của bạn, nếu còn thêm bất kỳ thắc mắc nào, có thể gọi
+                                                    đến hotline của Hệ thống BVĐK Tâm Anh (Hà Nội: 18006858; TP HCM: 028
+                                                    7102 6789 hoặc inbox cho fanpage benhvientamanh. Trân trọng!)
+                                                </p>
+                                                <p class="commentTime">10:10 (GTM +7) | 11/11/2022</p>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="collapseOne" class="accordion-collapse accBG collapse show"
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <!-- SINGLE COMMENT -->
+                                    <div class="singleComment">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 class="commentTitle">Minh Thanh</h5>
+                                                <h6 class="doctorTitle"> 35 tuổi, Gò Vấp, TP. HCM</h6>
+                                                <p class="commentDetails">
+                                                    Tôi bị ung thư máu, đã tiêm 2 liều vaccine ngừa Covid-19. Tôi muốn
+                                                    hỏi bác sĩ, nếu tôi không thể xét nghiệm kháng thể thì làm cách nào
+                                                    biết trong cơ thể tôi có kháng thể chống lại Covid-19? Vì thực sự
+                                                    tôi muốn tiêm kháng thể đơn dòng của AstraZeneca để ngừa Covid-19,
+                                                    chứ tôi sợ nếu chẳng may bị di chứng của bệnh thì số tiền bỏ ra điều
+                                                    trị còn kinh khủng hơn cả dự phòng.
+                                                </p>
+
+
+                                                <div class="card-footer"
+                                                    style="background-color: white; padding-left: 0rem;">
+                                                    <div class="row d-flex align-items-center justify-content-between">
+                                                        <div class="col-lg-4">
+                                                            <p class="commentTime">8:46 (GTM +7) | 11/11/2022</p>
+                                                        </div>
+                                                        <div class="col-lg-3" style="float: right; padding: none">
+                                                            <div
+                                                                class="postShareCtrl d-flex align-items-center justify-content-between">
+                                                                <a href="#">
+                                                                    <img src="images/share.png" alt="share"
+                                                                        class="img-fluid">
+                                                                    Chia sẻ
+                                                                </a>
+                                                                <a href="#">
+                                                                    <img src="images/pocket.png" alt="share"
+                                                                        class="img-fluid">
+                                                                    Đọc sau
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="singleComment commentInsideMode">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 class="commentTitle">PGS.TS.BS Trần Quang Bính</h5>
+                                                <h6 class="doctorTitle">Giám đốc chuyên môn BVĐK Tâm Anh TP.HCM</h6>
+                                                <p class="commentDetails ">
+                                                    Chúng ta đã biết kháng thể đơn dòng không có mới, có từ thập niên
+                                                    90, nhưng kháng thể đơn dòng để điều trị Covid-19 thì tùy theo giai
+                                                    đoạn, cơ chế của bệnh. Ví dụ: Tocilizumab dùng trong trường hợp bệnh
+                                                    nặng để ngăn ngừa dòng thác cytokine - gây ra biến chứng nặng của
+                                                    người bệnh, thì chỉ sử dụng khi bệnh rất nặng, nguy kịch. Còn các
+                                                    kháng thể đơn dòng khác hiện nay sử dụng trong điều trị chứ không
+                                                    phòng ngừa. Hiện giờ trên thế giới chỉ có duy nhất bộ đôi kháng thể
+                                                    đơn dòng của AstraZeneca hay chúng ta nói bộ đôi tixagevimab 150 mg
+                                                    và cilgavimab 150 mg là được dùng trong dự phòng. Đây là thuốc lần
+                                                    đầu tiên và duy nhất đến thời điểm hiện tại được chỉ định trong dự
+                                                    phòng Covid-19.
+                                                </p>
+                                                <p class="commentDetails ">
+                                                    Cảm ơn câu hỏi của bạn, nếu còn thêm bất kỳ thắc mắc nào, có thể gọi
+                                                    đến hotline của Hệ thống BVĐK Tâm Anh (Hà Nội: 18006858; TP HCM: 028
+                                                    7102 6789 hoặc inbox cho fanpage benhvientamanh. Trân trọng!)
+                                                </p>
+                                                <p class="commentTime">14:08 (GTM +7) | 11/11/2022</p>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- PAGE NUMBER -->
+                    <div class="blogsPagination">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link">
+                                        <img src="images/leftPagination.png" alt="leftPagination" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">16</a></li>
+                                <li class="page-item"><a class="page-link" href="#">17</a></li>
+
+
+                                <li class="page-item">
+                                    <a class="page-link" href="#">
+                                        <img src="images/rightPagination.png" alt="rightPagination" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- TIN KHAC -->
+                    <div class="allBlogCards">
+                        <h3 class="blogTitle">Tin tức khác dành cho bạn</h3>
+                        <div class="row row-cols-1 row-cols-md-2 g-5">
+                            <!-- CARD -->
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h3 class="card-title">12 phòng khám nha khoa ở An Giang hoạt động
+                                                    'chui'</h3>
+                                                <p class="card-text">
+                                                    Thanh tra Sở Y tế An Giang kiểm tra 49 phòng khám nha khoa, phát
+                                                    hiện 20 cơ sở vi phạm..
+                                                </p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="images/blog-1.png" alt="blog" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6 col">
+                                                <div class="postInfo d-flex align-items-center justify-content-around">
+                                                    <p> Thanh Hoàng</p>
+                                                    <p>35 phút trước</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col">
+                                                <div
+                                                    class="postShareCtrl d-flex align-items-center justify-content-around">
+                                                    <a href="#">
+                                                        <img src="images/share.png" alt="share" class="img-fluid">
+                                                        Chia sẻ
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="images/pocket.png" alt="share" class="img-fluid">
+                                                        Đọc sau
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CARD -->
+
+
+                            <!-- CARD -->
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h3 class="card-title">Đậu mùa khỉ có thể lây lan khi chưa khởi phát
+                                                    triệu chứng</h3>
+                                                <p class="card-text">
+                                                    Nghiên cứu của Anh cho thấy bệnh nhân đậu mùa khỉ có thể truyền
+                                                    virus trước khi..
+                                                </p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="images/blog-2.png" alt="blog" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6 col">
+                                                <div class="postInfo d-flex align-items-center justify-content-around">
+                                                    <p>TeamLaCai</p>
+                                                    <p>1 giờ trước </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col">
+                                                <div
+                                                    class="postShareCtrl d-flex align-items-center justify-content-around">
+                                                    <a href="#">
+                                                        <img src="images/share.png" alt="share" class="img-fluid">
+                                                        Chia sẻ
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="images/pocket.png" alt="share" class="img-fluid">
+                                                        Đọc sau
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CARD -->
+
+                            <!-- CARD -->
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3 class="card-title">Lo dịch chồng dịch, nhiều người tìm mua thuốc
+                                                    tăng đề kháng cho con</h3>
+                                                <p class="card-text">
+                                                    Dịch chồng dịch, trẻ em liên tục mắc bệnh khiến nhiều cha mẹ sốt
+                                                    ruột tìm mua các thuốc tăng đề kháng, song chuyên gia cho rằng không
+                                                    hiệu quả, tốn kém.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6 col">
+                                                <div class="postInfo d-flex align-items-center justify-content-around">
+                                                    <p>BaHangXom</p>
+                                                    <p>2 giờ trước</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col">
+                                                <div
+                                                    class="postShareCtrl d-flex align-items-center justify-content-around">
+                                                    <a href="#">
+                                                        <img src="images/share.png" alt="share" class="img-fluid">
+                                                        Chia sẻ
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="images/pocket.png" alt="share" class="img-fluid">
+                                                        Đọc sau
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CARD -->
+
+                            <!-- CARD -->
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h3 class="card-title">TP HCM đưa 4 bác sĩ về xã đảo Thạnh An</h3>
+                                                <p class="card-text">
+                                                    Ngày 3/11, lãnh đạo Sở Y tế TP HCM gặp gỡ 4 bác sĩ trẻ tình nguyện
+                                                    đăng ký đợt ra quân..
+                                                </p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="images/blog-4.png" alt="blog" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6 col">
+                                                <div class="postInfo d-flex align-items-center justify-content-around">
+                                                    <p>Bạc Hà</p>
+                                                    <p>40 phút trước</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col">
+                                                <div
+                                                    class="postShareCtrl d-flex align-items-center justify-content-around">
+                                                    <a href="#">
+                                                        <img src="images/share.png" alt="share" class="img-fluid">
+                                                        Chia sẻ
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="images/pocket.png" alt="share" class="img-fluid">
+                                                        Đọc sau
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CARD -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SIDEBAR -->
+                <div class="col-md-3 newsRightMetaInfo">
+
+                    <!-- WEATHER -->
+                    <div class="weatherInfoDetail card">
+                        <div class="weatherHeader borderBottom d-flex align-items-center justify-content-between">
+                            <h5 class="weaterTitle">Hà Đông, Hà Nội </h5>
+                            <img src="images/crosshair.png" alt="crosshair" class="img-fluid">
+                        </div>
+                        <div class="weatherBody d-flex align-items-center justify-content-between">
+                            <div class="weatherLeft">
+                                <p class="location">Nắng</p>
+                                <h3 class="temparature">28<sup>°</sup>C</h3>
+                                <div class="degToFer">
+                                    <a href="#" class="btn active">
+                                        Độ C
+                                    </a>
+                                    <a href="#" class="btn">
+                                        Độ F
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="weatherRight text-end d-flex align-items-center justify-content-end">
+                                <img src="images/sun.png" alt="sun" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //WEATHER -->
+
+                    <!-- CONGTACVIEN -->
+                    <div class="fetherBox card">
+                        <div class="borderBottom">
+                            <h5 class="fetherTitle">
+                                <img src="images/feather.png" alt="fether" class="img-fluid">
+                                Trở thành cộng tác viên
+                            </h5>
+                        </div>
+                        <div class="fetherBody">
+                            <div class="row">
+                                <div class="col-5 d-flex align-items-center">
+                                    <p class="fetherDetails">
+                                        Viết bài và nhận tiền nhuận bút
+                                    </p>
+
+                                </div>
+                                <div class="col-7 text-end">
+                                    <a href="#" class="btn fetherBtn">
+                                        Tìm hiểu thêm
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //CONGTACVIEN-->
+
+                    <!-- TIN VAN -->
+                    <div class="tinSlider card">
+                        <div class="tinHeader">
+                            <div class="borderBottom">
+                                <h5 class="tinTitle">
+                                    <img src="images/file-text.png" alt="text" class="img-fluid">
+                                    Tin vắn
+                                </h5>
+                            </div>
+
+                            <div class="tinsliderCards">
+
+                                <!-- SLIDER -->
+                                <div class="slider-item">
+                                    Nghiên cứu của Anh cho thấy bệnh nhân đậu mùa khỉ có thể truyền virus trước khi
+                                    có
+                                    triệu chứng. <br>
+                                    Nghiên cứu công bố ngày 2/11, chỉ ra đặc điểm lây nhiễm mới của căn bệnh. Trước
+                                    đây,
+                                    các chuyên gia tin rằng chỉ người đã có biểu hiện bệnh như sốt, nổi mẩn, mụn
+                                    nước
+                                    mới có thể truyền virus. Dù vậy, bác sĩ vẫn sàng lọc và phát hiện một vài trường
+                                    hợp
+                                    mắc đậu mùa khỉ không triệu chứng.
+                                </div>
+                                <!--// SLIDER -->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--// TIN VAN -->
+
+                    <!-- DANGKY EMAIL -->
+                    <div class="dangSubmition card">
+                        <div class="borderBottom">
+                            <h5 class="dangTitle">Đăng ký nhận tin mới </h5>
+                        </div>
+                        <form action="#" class="dangForm">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Nhập email..."
+                                required>
+                            <input type="submit" value="Đăng ký " class="btn emailSubmitBtn">
+                        </form>
+                    </div>
+                    <!-- //DANGKY EMAIL-->
+                    <div class="dangSubmition card">
+                        <div class="borderBottom">
+                            <h5 class="dangTitle"> Tư vấn - Hỏi đáp sức khoẻ </h5>
+                        </div>
+                        <a class="tuvanBtn" href="guicauhoi.html"> Gửi câu hỏi</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        </div>
+
+
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="container">
+
+                <div class="footerTop d-md-flex align-items-center justify-content-between">
+                    <div class="footerLogo">
+                        <img src="images/mobileLogo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="footerSocialLinks d-flex align-items-center mt-5 mt-md-0">
+                        <p>Theo dõi chúng tôi trên </p>
+                        <ul class="list-unstyled d-flex align-items-center">
+                            <li><a href="#">
+                                    <img src="images/Facebook.png" alt="facebook" class="img-fluid">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="images/Twitter.png" alt="Twitter" class="img-fluid">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="images/Instagram.png" alt="Instagram" class="img-fluid">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="images/Youtube.png" alt="Youtube" class="img-fluid">
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footerQuickLinks">
+                    <div class="row row-cols-md-4 g-2 row-cols-1">
+
+                        <div class="col">
+                            <p class="linkTitle">Home</p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">
+                                        Tin tức
+                                    </a></li>
+                                <li><a href="#">
+                                        Tư vấn
+                                    </a></li>
+                                <li><a href="#">
+                                        Dinh Dưỡng
+                                    </a></li>
+                                <li><a href="#">
+                                        Covid 19
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <p class="linkTitle">Trang cá nhân</p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">
+                                        Trang cá nhân
+                                    </a></li>
+                                <li><a href="#">
+                                        Lịch sử bình luận
+                                    </a></li>
+                                <li><a href="#">
+                                        Lịch sử đã xem
+                                    </a></li>
+                                <li><a href="#">
+                                        Bài viết cụ thể
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <p class="linkTitle">Filler text</p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">
+                                        Filler tẽt
+                                    </a></li>
+                                <li><a href="#">
+                                        Filler text
+                                    </a></li>
+                                <li><a href="#">
+                                        Filler text
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col d-flex align-items-center">
+                            <div class="footerSUbmition">
+                                <p class="linkTitle">Đăng ký nhận tin tức qua email ngay</p>
+                                <form action="#">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email của bạn" required>
+                                        <input class="btn btn-outline-secondary" id="button-addon2" type="submit"
+                                            value="Đăng ký" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+        <!-- //FOOTER-->
+
+</body>
+
+</html>
